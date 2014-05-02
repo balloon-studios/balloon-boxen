@@ -9,6 +9,7 @@ class people::norm::software {
     include launchbar
     include notational_velocity::nvalt
     include sublime_text_3
+    include textmate
 
     package {
         [
