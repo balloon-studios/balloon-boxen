@@ -7,6 +7,7 @@ class people::norm::software {
     include gitx::dev
     include istatmenus4
     include launchbar
+    include notational_velocity::nvalt
 
     package {
         [
