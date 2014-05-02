@@ -84,6 +84,11 @@ GITHUBTARBALL
     nodejs (3.7.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-notational_velocity
+  specs:
+    notational_velocity (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -159,6 +164,7 @@ DEPENDENCIES
   module-data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
+  notational_velocity (= 1.1.1)
   openssl (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
