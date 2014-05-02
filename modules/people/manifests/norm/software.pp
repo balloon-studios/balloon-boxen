@@ -9,6 +9,7 @@ class people::norm::software {
     include launchbar
     include mou
     include notational_velocity::nvalt
+    include things
 
     include sublime_text_3
     file { "/usr/local/bin/subl":
