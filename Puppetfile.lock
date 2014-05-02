@@ -129,6 +129,11 @@ GITHUBTARBALL
     textmate (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-things
+  specs:
+    things (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
@@ -190,5 +195,6 @@ DEPENDENCIES
   sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
   textmate (= 1.1.0)
+  things (= 1.0.1)
   xquartz (= 1.1.1)
 
