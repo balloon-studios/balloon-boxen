@@ -8,6 +8,7 @@ class people::norm::software {
     include istatmenus4
     include launchbar
     include notational_velocity::nvalt
+    include sublime_text_3
 
     package {
         [
