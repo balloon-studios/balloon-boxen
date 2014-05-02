@@ -59,3 +59,5 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "adium",                 "1.3.0"
