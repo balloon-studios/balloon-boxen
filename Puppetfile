@@ -61,3 +61,4 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "adium",                 "1.3.0"
+github "chrome",                "1.1.2"
