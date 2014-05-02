@@ -4,6 +4,7 @@ class people::norm::software {
     include chrome
     include dropbox
     include firefox
+    include gitx::dev
 
     package {
         [
