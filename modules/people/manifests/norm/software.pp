@@ -8,8 +8,18 @@ class people::norm::software {
     include istatmenus4
     include launchbar
     include notational_velocity::nvalt
+
     include sublime_text_3
+    file { "/usr/local/bin/subl":
+        ensure => link,
+        target => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
+    }
+
     include textmate
+    file { "/usr/local/bin/mate":
+        ensure => link,
+        target => '/Applications/TextMate.app/Contents/Resources/mate',
+    }
 
     package {
         [
