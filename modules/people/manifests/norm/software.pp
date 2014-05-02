@@ -1,4 +1,6 @@
 class people::norm::software {
+    include adium
+
     package {
         [
             'cpanminus',
