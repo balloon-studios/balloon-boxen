@@ -1,6 +1,7 @@
 class people::norm::software {
     include adium
     include chrome
+    include dropbox
 
     package {
         [
