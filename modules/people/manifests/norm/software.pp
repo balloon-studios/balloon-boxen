@@ -5,6 +5,7 @@ class people::norm::software {
     include dropbox
     include firefox
     include gitx::dev
+    include istatmenus4
 
     package {
         [
