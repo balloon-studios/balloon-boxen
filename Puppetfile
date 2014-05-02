@@ -61,6 +61,7 @@ github "xquartz",     "1.1.1"
 # https://github.com/boxen.
 
 github "adium",                 "1.3.0"
+github "camino",                "1.0.1", :repo => "norm/puppet-camino"
 github "chrome",                "1.1.2"
 github "dropbox",               "1.2.0"
 github "firefox",               "1.1.9"
