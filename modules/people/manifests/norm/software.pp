@@ -1,5 +1,6 @@
 class people::norm::software {
     include adium
+    include camino
     include chrome
     include dropbox
     include firefox
