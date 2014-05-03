@@ -1,0 +1,3 @@
+---
+# default (proper) port
+redis::port: "6379"

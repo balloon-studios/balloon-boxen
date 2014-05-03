@@ -9,6 +9,7 @@ class people::norm::software {
     include launchbar
     include mou
     include notational_velocity::nvalt
+    include redis
     include things
 
     include sublime_text_3
