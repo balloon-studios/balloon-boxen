@@ -24,6 +24,9 @@ class people::norm::software {
         target => '/Applications/TextMate.app/Contents/Resources/mate',
     }
 
+    include vagrant
+    vagrant::plugin { 'vagrant-vmware-fusion': }
+
     package {
         [
             'cpanminus',
