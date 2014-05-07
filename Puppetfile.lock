@@ -144,6 +144,11 @@ GITHUBTARBALL
     things (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.7)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.1)
@@ -208,5 +213,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   textmate (= 1.1.0)
   things (= 1.0.1)
+  vagrant (= 3.0.7)
   xquartz (= 1.1.1)
 
