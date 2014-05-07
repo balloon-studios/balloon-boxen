@@ -37,4 +37,13 @@ class people::norm::software {
         ]:
         ensure => present,
     }
+
+    package {
+        [
+            'virtualenv',
+            'virtualenvwrapper',
+        ]:
+        ensure => present,
+        provider => 'pip',
+    }
 }
