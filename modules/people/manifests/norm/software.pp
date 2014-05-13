@@ -26,6 +26,10 @@ class people::norm::software {
     include launchbar
     login_item { "LaunchBar": }
 
+    # installed via Mac App Store
+    login_item { "AntiRSI": }
+    login_item { "HardwareGrowler": }
+
     include textmate
     file { "/usr/local/bin/mate":
         ensure => link,
