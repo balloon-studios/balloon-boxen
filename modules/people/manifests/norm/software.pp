@@ -2,7 +2,6 @@ class people::norm::software {
     include adium
     include camino
     include chrome
-    include dropbox
     include firefox
     include gitx::dev
     include istatmenus4
@@ -18,6 +17,9 @@ class people::norm::software {
         ensure => link,
         target => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
     }
+
+    include dropbox
+    login_item { "Dropbox": }
 
     include fastscripts
     login_item { "FastScripts": }
