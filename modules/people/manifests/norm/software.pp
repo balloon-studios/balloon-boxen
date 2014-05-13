@@ -19,6 +19,9 @@ class people::norm::software {
         target => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
     }
 
+    include fastscripts
+    login_item { "FastScripts": }
+
     include textmate
     file { "/usr/local/bin/mate":
         ensure => link,
