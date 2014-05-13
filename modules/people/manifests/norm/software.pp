@@ -5,7 +5,6 @@ class people::norm::software {
     include firefox
     include gitx::dev
     include istatmenus4
-    include launchbar
     include minecraft
     include mou
     include notational_velocity::nvalt
@@ -23,6 +22,9 @@ class people::norm::software {
 
     include fastscripts
     login_item { "FastScripts": }
+
+    include launchbar
+    login_item { "LaunchBar": }
 
     include textmate
     file { "/usr/local/bin/mate":
