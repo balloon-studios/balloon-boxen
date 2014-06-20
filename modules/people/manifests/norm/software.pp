@@ -39,6 +39,10 @@ class people::norm::software {
     include vagrant
     vagrant::plugin { 'vagrant-vmware-fusion': }
 
+    # installed via Mac App Store
+    login_item { "AntiRSI": }
+    login_item { "HardwareGrowler": }
+
     package {
         [
             'cpanminus',
