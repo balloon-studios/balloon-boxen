@@ -11,12 +11,6 @@ class people::norm::software {
     include redis
     include things
 
-    include sublime_text_3
-    file { "/usr/local/bin/subl":
-        ensure => link,
-        target => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
-    }
-
     include dropbox
     login_item { "Dropbox": }
 
@@ -26,9 +20,11 @@ class people::norm::software {
     include launchbar
     login_item { "LaunchBar": }
 
-    # installed via Mac App Store
-    login_item { "AntiRSI": }
-    login_item { "HardwareGrowler": }
+    include sublime_text_3
+    file { "/usr/local/bin/subl":
+        ensure => link,
+        target => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
+    }
 
     include textmate
     file { "/usr/local/bin/mate":
@@ -38,6 +34,10 @@ class people::norm::software {
 
     include vagrant
     vagrant::plugin { 'vagrant-vmware-fusion': }
+
+    # installed via Mac App Store
+    login_item { "AntiRSI": }
+    login_item { "HardwareGrowler": }
 
     homebrew::tap { 'caskroom/cask': }
 
