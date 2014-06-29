@@ -1,4 +1,6 @@
 class people::norm::osx {
+    include turn-off-dashboard
+
     include osx::global::enable_keyboard_control_access
     include osx::global::enable_standard_function_keys
     include osx::global::expand_print_dialog
