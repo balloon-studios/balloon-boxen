@@ -46,6 +46,7 @@ class people::norm::software {
             'bash-completion',
             'brew-cask',
             'cpanminus',
+            'jq',
             'lesspipe',
             'markdown',
             'nvi',
