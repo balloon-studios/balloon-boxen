@@ -46,6 +46,7 @@ class people::norm::software {
             'bash-completion',
             'brew-cask',
             'cpanminus',
+            'lesspipe',
             'nvi',
             'the_silver_searcher',
             'unrar',
