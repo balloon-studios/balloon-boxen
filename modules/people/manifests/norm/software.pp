@@ -60,6 +60,7 @@ class people::norm::software {
 
     package {
         [
+            'honcho',
             'virtualenv',
             'virtualenvwrapper',
         ]:
