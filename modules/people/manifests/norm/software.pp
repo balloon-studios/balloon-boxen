@@ -61,6 +61,7 @@ class people::norm::software {
     package {
         [
             'honcho',
+            's3cmd',
             'virtualenv',
             'virtualenvwrapper',
         ]:
