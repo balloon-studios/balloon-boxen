@@ -47,6 +47,7 @@ class people::norm::software {
             'brew-cask',
             'cpanminus',
             'lesspipe',
+            'markdown',
             'nvi',
             'the_silver_searcher',
             'unrar',
