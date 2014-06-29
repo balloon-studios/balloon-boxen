@@ -41,6 +41,7 @@ class people::norm::software {
 
     package {
         [
+            'bash-completion',
             'cpanminus',
             'nvi',
             'the_silver_searcher',
