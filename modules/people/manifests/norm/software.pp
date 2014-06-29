@@ -39,9 +39,12 @@ class people::norm::software {
     include vagrant
     vagrant::plugin { 'vagrant-vmware-fusion': }
 
+    homebrew::tap { 'caskroom/cask': }
+
     package {
         [
             'bash-completion',
+            'brew-cask',
             'cpanminus',
             'nvi',
             'the_silver_searcher',
