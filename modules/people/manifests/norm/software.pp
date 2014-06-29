@@ -51,6 +51,7 @@ class people::norm::software {
             'nvi',
             'the_silver_searcher',
             'unrar',
+            'watch',
             'wget',
         ]:
         ensure => present,
