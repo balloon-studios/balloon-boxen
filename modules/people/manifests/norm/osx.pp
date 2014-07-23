@@ -3,6 +3,7 @@ class people::norm::osx {
     include osx::global::enable_standard_function_keys
     include osx::global::expand_print_dialog
     include osx::global::expand_save_dialog
+    include osx::global::tap_to_click
 
     include osx::dock::2d
     include osx::dock::autohide
