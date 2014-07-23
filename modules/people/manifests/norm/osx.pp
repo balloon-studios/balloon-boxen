@@ -17,4 +17,8 @@ class people::norm::osx {
     class { 'osx::dock::icon_size':
         size => 128
     }
+    class { 'osx::dock::hot_corners':
+      bottom_left => "Put Display to Sleep",
+      bottom_right => "Start Screen Saver",
+    }
 }
