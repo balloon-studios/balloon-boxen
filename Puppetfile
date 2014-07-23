@@ -59,13 +59,16 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+# Please keep the below in alphabetical order to make it easier to see what is already included
 
 github "adium",                 "1.3.0"
+github "alfred",                "1.2.0"
 github "camino",                "1.0.1", :repo => "norm/puppet-camino"
 github "chrome",                "1.1.2"
 github "dropbox",               "1.2.0"
 github "fastscripts",           "1.0.1", :repo => "takashiyoshida/puppet-fastscripts"
 github "firefox",               "1.1.9"
+github "github_for_mac",        "1.0.3"
 github "gitx",                  "1.2.0"
 github "istatmenus4",           "1.1.0"
 github "launchbar",             "1.0.2"
