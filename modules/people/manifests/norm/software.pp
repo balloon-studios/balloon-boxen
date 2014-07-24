@@ -45,9 +45,11 @@ class people::norm::software {
 
     package {
         [
+            'atomicparsley',
             'bash-completion',
             'brew-cask',
             'cpanminus',
+            'ffmpeg',
             'jq',
             'lesspipe',
             'markdown',
@@ -56,6 +58,7 @@ class people::norm::software {
             'unrar',
             'watch',
             'wget',
+            'youtube-dl',
         ]:
         ensure => present,
     }
