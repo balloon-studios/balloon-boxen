@@ -66,9 +66,9 @@ class people::norm::software {
     package {
         [
             'honcho',
-            's3cmd',
             'virtualenv',
             'virtualenvwrapper',
+            'https://github.com/s3tools/s3cmd/archive/v1.5.0-rc1.tar.gz',
         ]:
         ensure => present,
         provider => 'pip',
