@@ -34,6 +34,11 @@ GITHUBTARBALL
     firefox (1.1.9)
 
 GITHUBTARBALL
+  remote: boxen/puppet-fluid
+  specs:
+    fluid (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -213,6 +218,7 @@ DEPENDENCIES
   dropbox (= 1.2.0)
   fastscripts (= 1.0.1)
   firefox (= 1.1.9)
+  fluid (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
   git (= 2.3.1)
