@@ -10,6 +10,7 @@ class people::norm::software {
     include notational_velocity::nvalt
     include redis
     include things
+    include vmware_fusion
 
     include dropbox
     login_item { "Dropbox": }
