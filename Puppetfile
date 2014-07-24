@@ -82,4 +82,5 @@ github "sublime_text_3",        "1.0.2", :repo => "jozefizso/puppet-sublime_text
 github "textmate",              "1.1.0"
 github "things",                "1.0.1"
 github "vagrant",               "3.1.1"
+github "virtualbox",            "1.0.13"
 github "vmware_fusion",         "1.1.0"
