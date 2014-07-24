@@ -5,7 +5,7 @@ define repo::personal::install {
     }
   
     exec { "make-${title}":
-        command     => 'make',
+        command     => 'make install',
         cwd         => "${boxen::config::srcdir}/${title}",
         refreshonly => true,
     }
