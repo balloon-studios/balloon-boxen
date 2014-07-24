@@ -3,6 +3,7 @@ class people::norm::software {
     include camino
     include chrome
     include firefox
+    include fluid
     include gitx::dev
     include istatmenus4
     include minecraft
