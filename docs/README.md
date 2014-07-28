@@ -2,6 +2,7 @@
 
 ## PRE-REQUISITES
 - Xcode command line tools ('xcode-select --install')
+- run 'sudo easy_install pip'
 - Have set up SSH within Github 
 - Have a base $USER/balloon/balloon directory in which you store your repositories 
 
@@ -14,7 +15,7 @@
 [NOTE: If you already have homebrew, run 'brew list' to understand what is already set up using it, and make notes so that it can be removed and then replaced by the boxen homebrew install. Alternatively, do 'type brew' to find out where it is stored and then 'mv' to rename the folder and keep it as a backup.]
 
 - 'cd /opt/boxen/repo'
-- 'script/boxen --srcdir=$HOME/balloon' #initial setup of boxen (this will take a)
+- 'script/boxen --srcdir=$HOME/balloon' #initial setup of boxen (this will take a while)
 - Once installed, add line 'source /opt/boxen/env.sh' to bottom of '.bash_profile' in $USER home directory using your text editor of choice. 
 
 ## ORGANISATIONAL SETTINGS
