@@ -8,4 +8,5 @@ class people::norm {
 
     include projects::development
     include projects::infrastructure
+    include projects::marks-and-spencer
 }
