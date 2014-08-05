@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/puppetlabs/puppetlabs-concat.git
+  ref: 1.0.0
+  sha: 04356974f72b90a1d0f57346a00e95a717924e43
+  specs:
+    concat (1.0.0)
+
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
@@ -219,6 +226,7 @@ DEPENDENCIES
   boxen (= 3.4.2)
   camino (= 1.0.1)
   chrome (= 1.1.2)
+  concat (= 1.0.0)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
   fastscripts (= 1.0.1)

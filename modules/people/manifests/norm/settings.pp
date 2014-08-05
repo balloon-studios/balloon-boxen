@@ -5,4 +5,8 @@ class people::norm::settings {
     repo::personal::install { 'osx_scripts': }
     repo::personal::install { 'osx_settings': }
     repo::personal::install { 'osx_shortcuts': }
+
+    ssh_config::fragment { 'norm_ssh_config':
+        source => 'puppet:///modules/people/norm/ssh_config',
+    }
 }
