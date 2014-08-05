@@ -52,20 +52,10 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
-  }
-
-  # common, useful packages
-  package {
-    [
-      'ack',
-      'findutils',
-      'gnu-tar'
-    ]:
   }
 
   file { "${boxen::config::srcdir}/our-boxen":
