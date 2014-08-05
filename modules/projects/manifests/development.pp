@@ -1,7 +1,7 @@
 class projects::development {
     include vagrant
 
-     package {
+    package {
         [
             'ansible',
         ]:
