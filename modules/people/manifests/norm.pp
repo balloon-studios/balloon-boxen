@@ -5,6 +5,7 @@ class people::norm {
 
     repo::balloon { 'quotebot': }
     repo::balloon { 'slack-echo-chamber': }
+    repo::balloon { 'balloon-boxen': }
 
     include projects::development
     include projects::infrastructure
