@@ -6,4 +6,12 @@ class projects::marks-and-spencer {
         ensure => link,
         target => "/Users/${::boxen_user}/balloon/mns",
     }
+
+    repo::balloon::mns { 'mns-infra':
+        dir => 'config-mgmt',
+    }
+    file { "/Users/${::boxen_user}/balloon/mns/activate-ansible":
+        ensure => link,
+        target => "/Users/${::boxen_user}/balloon/balloon/config-mgmt/bin/activate-ansible",
+    }
 }
