@@ -17,4 +17,15 @@ class people::geekmanager::software {
         target => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
     }
 
+    package {
+        [
+            'honcho',
+            'virtualenv',
+            'virtualenvwrapper',
+            'https://github.com/s3tools/s3cmd/archive/v1.5.0-rc1.tar.gz',
+        ]:
+        ensure => present,
+        provider => 'pip',
+        }
+
 }
