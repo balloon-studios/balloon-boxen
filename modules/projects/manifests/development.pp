@@ -5,6 +5,13 @@ class projects::development {
 
     package {
         [
+            'autossh',
+        ]:
+        ensure => present,
+    }
+
+    package {
+        [
             'ansible',
         ]:
         ensure => present,
