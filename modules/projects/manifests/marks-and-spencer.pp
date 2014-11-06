@@ -14,4 +14,22 @@ class projects::marks-and-spencer {
         ensure => link,
         target => "/Users/${::boxen_user}/balloon/balloon/config-mgmt/bin/activate-ansible",
     }
+
+    repo::balloon::mns { 'mns-multi-search': }
+    repo::balloon::mns { 'mns-api-access': }
+    repo::balloon::mns { 'cs-mandsplus-acceptance-suite': }
+    repo::balloon::mns { 'keyhole-surgery': }
+    repo::balloon::mns { 'plusplus-working': }
+
+    package {
+        [
+            'autossh',
+            'boot2docker',
+        ]:
+        ensure => present,
+    }
+
+    include vagrant
+    include virtualbox
+    
 }

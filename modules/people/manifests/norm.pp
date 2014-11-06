@@ -4,12 +4,9 @@ class people::norm {
     include norm::settings
     include norm::personal_code
 
-    repo::balloon { 'quotebot': }
-    repo::balloon { 'slack-echo-chamber': }
-    repo::balloon { 'balloon-boxen': }
-
+    include projects::balloon-studios
     include projects::development
     include projects::infrastructure
     include projects::marks-and-spencer
-    include projects::balloon::mns-django
+    
 }
