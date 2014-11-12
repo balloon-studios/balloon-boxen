@@ -24,9 +24,16 @@ class projects::marks-and-spencer {
     package {
         [
             'autossh',
-            'boot2docker',
         ]:
         ensure => present,
+    }
+
+    package {
+        [
+        'boot2docker', 
+        ]:
+        ensure => '1.3.0', 
+        provider => 'homebrew',
     }
 
     include vagrant
