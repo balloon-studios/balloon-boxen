@@ -29,7 +29,7 @@ class projects::marks-and-spencer {
     }
 
     package {
-        'boot2docker': ensure => '1.3.0', 
+        'boot2docker': ensure => '1.3.1', 
     }
 
     include vagrant
