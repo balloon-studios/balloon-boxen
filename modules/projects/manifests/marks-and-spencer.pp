@@ -29,11 +29,7 @@ class projects::marks-and-spencer {
     }
 
     package {
-        [
-        'boot2docker', 
-        ]:
-        ensure => '1.3.0', 
-        provider => 'homebrew',
+        'boot2docker': ensure => '1.3.0', 
     }
 
     include vagrant
